@@ -52,6 +52,6 @@ Back at the login form, I tried default combinations of credentials like admin:a
 
 Out of curiosity, I read the official report and learned that admin'#:anypassword would work too. In this way, we transform the query by turning in a comment the password check section. The query checks if user = 'admin', returns true and proceeds with the login.
 
-Final Thoughts
+5. Final Thoughts
 
 This machine despite being introductory to SQL Injection, reinforced the impact and facility of that attack. Injection is the #5 most critical security risk in the OWASP Top10:2025 and to prevent an application from becoming vulnerable to it, its to keep data separate from commands and queries.

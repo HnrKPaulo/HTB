@@ -79,10 +79,7 @@ SMB
 smbclient -L //$target
 password = ''
 
-ADMIN$     Disk      Remote Admin
-backups      Disk      
-C$                 Disk      Default share
-PC$               IPC       Remote IPC
+A 'backup' share is revealed.
 
 smbclient -U '' //$target/backups/
 password= ''

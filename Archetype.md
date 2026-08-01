@@ -50,6 +50,8 @@ sudo nmap -T2 -Pn -sS --top-ports 1000 $target -v
 	1433/tcp open  ms-sql-s
 	5985/tcp open  wsman
 
+--- 
+
 2. Service Enumeration
 
 Port Scan
@@ -61,6 +63,8 @@ sudo nmap -T2 -sV -p 135,139,445,1433,5985 $target -v
 	445/tcp  Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
 	1433/tcp Microsoft SQL Server 2017 14.00.1000
 	5985/tcp Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+
+---
 
 3. Initial Access
 
@@ -108,6 +112,7 @@ Another interesting command that I found was 'xp_cmdshell', but when I tried it,
 I spent some time figuring out the correct syntax and I successfully enabled 'xp_cmdshell' and achieved OS command execution through MSSQL. 
 I explored the machine and found the user flag in the user desktop.
 
+---
 
 4. Privilege Escalation
 

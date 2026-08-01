@@ -79,7 +79,7 @@ SMB
 smbclient -L //$target
 password = ''
 
-A 'backup' share is revealed.
+A 'backups' share is revealed.
 
 smbclient -U '' //$target/backups/
 password= ''

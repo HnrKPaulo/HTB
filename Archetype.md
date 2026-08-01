@@ -13,15 +13,15 @@ Machine with a misconfigured Microsoft SQL server, exposed SMB shares and sensit
 
 Attack Path
 
-SMB enumeration
-Exposed backup share
-Credentials found
-MSSQL Authentication
-Sysadmin privileges
-xp_cmdshell enabled
-User access
-Administrator credentials from history file
-SYSTEM Access
+SMB enumeration;
+Exposed backup share;
+Credentials found;
+MSSQL Authentication;
+Sysadmin privileges;
+xp_cmdshell enabled;
+User access;
+Administrator credentials from history file;
+SYSTEM Access;
 
 ---
 

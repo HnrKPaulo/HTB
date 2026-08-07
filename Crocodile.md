@@ -1,7 +1,7 @@
 
 Machine Name
 
-- Platform: Hack The Box / TryHackMe
+- Platform: Hack The Box
 - Difficulty: Easy
 - Operating System: Linux
 

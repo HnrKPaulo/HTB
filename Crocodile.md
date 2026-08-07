@@ -1,5 +1,5 @@
 
-Machine Name
+CROCODILE
 
 - Platform: Hack The Box
 - Difficulty: Easy

@@ -1,5 +1,5 @@
 
-Machine Name
+CAP
 
 - Platform: Hack The Box
 - Difficulty: Easy

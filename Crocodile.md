@@ -11,7 +11,7 @@ An exposed FTP service reveals sensitive data, which can be used to access an ad
 
 ---
 
-Attack path
+Attack Path
 
 Service Enumeration -> Anonymous FTP authentication -> Access to plaintext credentials -> Website's administrative panel access.
  

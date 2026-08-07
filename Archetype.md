@@ -1,5 +1,5 @@
 
-Machine Name
+ARCHETYPE
 
 - Platform: Hack The Box
 - Difficulty: Introductory
